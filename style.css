@@ -152,7 +152,7 @@ header p {
   color: #94a3b8;
 }
 
-/* Botões de Controle */
+
 .controls {
   display: flex;
   align-items: center;
@@ -190,7 +190,7 @@ header p {
   color: #94a3b8;
 }
 
-/* Pontos (Dots) */
+
 .dots-container {
   display: flex;
   gap: 8px;

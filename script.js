@@ -1,33 +1,33 @@
 
 const flashcardsData = [
   {
-    title: "Propriedades da luz:",
-    image: "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
-    description: "As propriedades da luz são as características que descrevem como a luz se comporta e interage com diferentes materiais.",
+    title: "Propriedades da luz:";
+    image: "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80";
+    description: "As propriedades da luz são as características que descrevem como a luz se comporta e interage com diferentes materiais.";
     example: "Reflexão: `luz batendo no espelho e voltando.``Refração: um lápis parece torto dentro da água.``Difração: luz se espalhando ao passar por uma pequena abertura.`"
-  },
+  };
   {
     title: "Reflexão e espelhos:",
     image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
-    description: "É quando a luz bate em uma superfície e retorna; Espelhos: são superfícies que refletem a luz e formam imagens.",
-    example: "Ex.: luz refletida em um espelho; Ex.: espelho de banheiro."
-  },
+    description: "É quando a luz bate em uma superfície e retorna; Espelhos: são superfícies que refletem a luz e formam imagens.";
+    example: "Ex: luz refletida em um espelho; Ex.: espelho de banheiro."
+  };
   {
     title: "Fenômenos da luz:",
-    image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=600&q=80",
-    description: "São os efeitos que acontecem quando a luz interage com objetos ou materiais.",
-    example: "Ex. arco-íris"
-  },
+    image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=600&q=80";
+    description: "São os efeitos que acontecem quando a luz interage com objetos ou materiais.";
+    example: "Ex: arco-íris";
+  };
   {
-    title: "Òptica do corpo humano:",
-    image: "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=600&q=80",
-    description: "Estuda como a luz entra e forma imagens no olho",
+    title: "Òptica do corpo humano:";
+    image: "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=600&q=80";
+    description: "Estuda como a luz entra e forma imagens no olho";
     example: "Padrões coloridos brilhantes visíveis no verso de um disco de CD ou DVD."
   },
   {
-    title: "Lentes:",
-    image: "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&w=600&q=80",
-    description: "São objetos transparentes que desviam a luz para formar ou modificar imagens.",
+    title: "Lentes:";
+    image: "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&w=600&q=80";
+    description: "São objetos transparentes que desviam a luz para formar ou modificar imagens.";
     example: "O cristalino funciona como uma lente e ajuda a formar a imagem na retina."
   }
 ];
