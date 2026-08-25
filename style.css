@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ultra&display=swap')
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'https://fonts.google.com/share?selection.family=Indie+Flower|Ultra', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Indie Flower', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -89,7 +91,6 @@ button:hover {
     color: white;
     transform: rotateY(180deg);
 }
-
 
 .flashcard.virado .card-front {
     transform: rotateY(180deg);
