@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Montserrat:wght@400;600&display=swap');
 
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -14,22 +14,22 @@ body {
   align-items: center;
   min-height: 100vh;
 }
-
-.app-container {
+.container {
   text-align: center;
   width: 90%;
   max-width: 450px;
 }
 
 h1 {
+  font-family: 'Gravitas One', cursive;
   margin-bottom: 20px;
-  color: #333;
+  color: #ffffff;
 }
 
 .card-container {
   perspective: 1000px;
   width: 100%;
-  height: 320px;
+  height: 380px;
   margin-bottom: 20px;
 }
 
@@ -52,7 +52,7 @@ h1 {
   height: 100%;
   backface-visibility: hidden;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -62,16 +62,16 @@ h1 {
 }
 
 .card-front img {
-  max-width: 80%;
+  max-width: 90%;
   max-height: 180px;
-  object-fit: contain;
+  object-fit: cover;
   margin-bottom: 15px;
   border-radius: 8px;
 }
 
 .card-front p {
   font-size: 1.1rem;
-  font-weight: bold;
+  font-weight: 600;
   color: #2c3e50;
 }
 
@@ -79,10 +79,12 @@ h1 {
   transform: rotateY(180deg);
   background-color: #2c3e50;
   color: #ffffff;
+  overflow-y: auto;
 }
 
 .card-back p {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  line-height: 1.5;
   text-align: center;
 }
 
@@ -99,10 +101,15 @@ button {
   background-color: #3498db;
   color: #fff;
   font-size: 0.95rem;
+  font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
 button:hover {
   background-color: #2980b9;
+}
+
+button:active {
+  transform: scale(0.98);
 }
