@@ -1,4 +1,4 @@
-@import url('https://https://fonts.google.com/share?selection.family=Indie+Flower.googleapis.com/css2?family=Gravitas+One&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Montserrat:wght@400;600&display=swap');
 
 *{
   box-sizing: border-box;
@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #f4f6f9;
+  background-color: #0f2647;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,7 +58,7 @@ h1 {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: #ffffff;
+  background-color: #dba578;
 }
 
 .card-front img {
