@@ -10,7 +10,7 @@ const bancoDeCartas = [
     { tema: 'lentes', img: 'https://placehold.co/400x200/2ecc71/white?text=Lente+Convergente', p: 'Como se comporta uma lente convergente?', r: 'Ela faz com que os raios de luz paralelos que passam por ela se cruzem em um único ponto (foco).' },
 
     { tema: 'optica_corpo', img: 'https://placehold.co/400x200/e74c3c/white?text=Miopia', p: 'Qual problema de visão é corrigido com lentes divergentes?', r: 'A miopia, pois a imagem se forma antes da retina.' },
-    { tema: 'optica_corpo', img: 'https://placehold.co/400x200/e74c3c/white?text=Cristalino', p: 'Qual estrutura do olho funciona como uma lente biconvexa natural?', r: 'O cristalino, que foca os raios de luz na retina.' }
+    
 ];
 
 let cartasAtuais = [];
