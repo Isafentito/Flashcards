@@ -1,34 +1,34 @@
 
 const flashcardsData = [
   {
-    title: "1. Reflexão da Luz",
+    title: "Propriedades da luz:",
     image: "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
-    description: "É o fenômeno em que a luz atinge uma superfície e retorna ao meio de onde veio sem mudar de meio de propagação.",
-    example: "Ver a própria imagem refletida em um espelho plano ou na superfície tranquila da água."
+    description: "As propriedades da luz são as características que descrevem como a luz se comporta e interage com diferentes materiais.",
+    example: "Reflexão: `luz batendo no espelho e voltando.``Refração: um lápis parece torto dentro da água.``Difração: luz se espalhando ao passar por uma pequena abertura.`"
   },
   {
-    title: "2. Refração da Luz",
+    title: "Reflexão e espelhos:",
     image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
-    description: "Ocorre quando a luz passa de um meio transparente para outro, alterando sua velocidade de propagação e sua direção.",
-    example: "Um canudo dentro de um copo com água parece estar quebrado ou torto."
+    description: "É quando a luz bate em uma superfície e retorna; Espelhos: são superfícies que refletem a luz e formam imagens.",
+    example: "Ex.: luz refletida em um espelho; Ex.: espelho de banheiro."
   },
   {
-    title: "3. Absorção da Luz",
+    title: "Fenômenos da luz:",
     image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=600&q=80",
-    description: "Processo no qual a energia da luz incidente é retida pela matéria e transformada em outra energia (como o calor).",
-    example: "Usar roupas pretas em um dia ensolarado faz você sentir mais calor do que usar roupas brancas."
+    description: "São os efeitos que acontecem quando a luz interage com objetos ou materiais.",
+    example: "Ex. arco-íris"
   },
   {
-    title: "4. Difração da Luz",
+    title: "Òptica do corpo humano:",
     image: "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=600&q=80",
-    description: "É a capacidade da onda luminosa de contornar obstáculos ou se espalhar ao passar por fendas de tamanho muito pequeno.",
+    description: "Estuda como a luz entra e forma imagens no olho",
     example: "Padrões coloridos brilhantes visíveis no verso de um disco de CD ou DVD."
   },
   {
-    title: "5. Dispersão da Luz",
+    title: "Lentes:",
     image: "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&w=600&q=80",
-    description: "Separação da luz policromática (luz branca) em suas diversas cores componentes ao atravessar um meio como um prisma.",
-    example: "A formação do Arco-Íris no céu quando a luz do sol atravessa as gotículas de chuva."
+    description: "São objetos transparentes que desviam a luz para formar ou modificar imagens.",
+    example: "O cristalino funciona como uma lente e ajuda a formar a imagem na retina."
   }
 ];
 
