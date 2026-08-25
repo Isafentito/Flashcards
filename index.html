@@ -1,49 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flashcards de Óptica</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcards - Propriedades da Luz</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
+  <div class="app-container">
     <header>
-        <h1>Flashcards</h1>
+      <h1>Propriedades da Luz</h1>
+      <p>Clique no card para virar e ver a explicação!</p>
     </header>
 
-    <main>
-        <nav class="theme-selector">
-            <button onclick="carregarTema('propriedades')">Propriedades da Luz</button>
-            <button onclick="carregarTema('reflexao')">Reflexão e Espelhos</button>
-            <button onclick="carregarTema('fenomenos')">Fenômenos da Luz</button>
-            <button onclick="carregarTema('lentes')">Lentes</button>
-            <button onclick="carregarTema('optica_corpo')">Óptica do Corpo Humano</button>
-        </nav>
+    <main class="flashcard-container">
+      <div class="card" id="flashcard">
 
-        <section class="flashcard-container" style="display: none;">
-            <div class="flashcard" id="flashcard" onclick="virarCard()">
-                <div class="card-front">
-                    <img id="card-image" src="" alt="Imagem do Flashcard">
-                    <h2 id="card-question">Pergunta</h2>
-                    <p class="click-hint">Clique para ver a resposta</p>
-                </div>
-                <div class="card-back">
-                    <h2 id="card-answer">Resposta</h2>
-                </div>
-            </div>
+        <div class="card-face card-front">
+          <span class="badge">Física / Óptica</span>
+          <div class="img-container">
+            <img id="card-img" src="" alt="Imagem da propriedade da luz">
+          </div>
+          <h2 id="card-title-front">Título do Tema</h2>
+          <p class="hint">💡 Clique para virar o card</p>
+        </div>
 
-            <div class="controls">
-                <button onclick="cardAnterior()">Anterior</button>
-                <span id="card-counter">1 / 1</span>
-                <button onclick="proximoCard()">Próximo</button>
-            </div>
-        </section>
+        <div class="card-face card-back">
+          <h2>Explicação</h2>
+          <p id="card-desc">Descrição do fenômeno físico.</p>
+          <div class="exemplo-box">
+            <strong>Exemplo Prático:</strong>
+            <p id="card-example">Exemplo no dia a dia...</p>
+          </div>
+          <p class="hint"> Clique para voltar</p>
+        </div>
+
+      </div>
     </main>
 
-    <footer>
-        <p>Estudo de Óptica</p>
+    <footer class="controls">
+      <button id="btn-prev" class="btn">&#8592; Anterior</button>
+      <span id="card-counter" class="counter">1 / 5</span>
+      <button id="btn-next" class="btn">Próximo &#8594;</button>
     </footer>
 
-    <script src="app.js"></script>
+    <div class="dots-container" id="dots-container"></div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
