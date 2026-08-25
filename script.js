@@ -30,8 +30,14 @@ const bancoDeCartas = [
 
 'Divergentes: Têm bordas grossas. Elas espalham os raios de luz que passam por elas.' },
     
-    { tema: 'optica_corpo', img: 'https://placehold.co/400x200/e74c3c/white?text=Miopia', p: 'Qual problema de visão é corrigido com lentes divergentes?', r: 'A miopia, pois a imagem se forma antes da retina.' },
-    { tema: 'optica_corpo', img: 'https://placehold.co/400x200/e74c3c/white?text=Cristalino', p: 'Qual estrutura do olho funciona como uma lente biconvexa natural?', r: 'O cristalino, que foca os raios de luz na retina.' }
+    { tema: 'optica_corpo', img: 'https://placehold.co/400x200/e74c3c/white?text=Miopia', p: 'O que é a óptica no corpo humano?', r: 'É o estudo de como a luz viaja até entrar no olho para o cérebro formar as imagens do mundo.' },
+    { tema: 'optica_corpo', img: 'https://placehold.co/400x200/e74c3c/white?text=Cristalino', p: 'Tipos de óptica no corpo humano:', r: 'Foco (Córnea e Cristalino): São as lentes naturais que captam e focam a luz que vem de fora.
+
+'Iluminação (Pupila): Controla a quantidade de luz que entra no olho.'
+
+'Captura (Retina): Fica no fundo do olho, recebendo a luz e transformando-a em sinais elétricos (como o sensor de uma câmera digital).'
+
+'Processamento (Nervo Óptico): Envia esses sinais direto para o cérebro, que monta a imagem que você vê.' }
 ];
 
 let cartasAtuais = [];
