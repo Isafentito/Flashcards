@@ -16,12 +16,12 @@ padding: 0;
 } 
 
 .cartao {
-width: 260px;
-height: 200px;
+ width: 260px;
+ height: 200px;
 }
 
 .cartao-imagem {
- width: 100%;
+  width: 100%;
 }
 
 body { 
