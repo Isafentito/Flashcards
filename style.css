@@ -46,3 +46,7 @@ background-color: #2d47df ;
  padding: 15px 25px;
  color: #fff;
 }
+
+.cartao-interno { 
+  position: relative; 
+} 
