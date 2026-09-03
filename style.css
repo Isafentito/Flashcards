@@ -10,7 +10,7 @@ padding: 0;
   justify-content: space-between; 
   align-items: center; 
   padding: 15px 25px; 
-  background-color: #323c77;
+  background-color: #2d47df;
 } 
 
 .cartao {
@@ -30,4 +30,9 @@ body {
 
 main { 
   flex: 1; 
+} 
+
+.cabecalho-link { 
+  color: #fff; 
+  text-decoration: none; 
 } 
