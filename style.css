@@ -10,6 +10,7 @@ padding: 0;
   justify-content: space-between; 
   align-items: center; 
   padding: 15px 25px; 
+  background-color: rgb(178, 211, 240);
 } 
 
 .cartao {
@@ -20,3 +21,13 @@ height: 200px;
 .cartao-imagem {
 width: 100%;
 }
+
+body { 
+  display: flex; 
+  flex-direction: column; 
+  min-height: 100vh; 
+} 
+
+main { 
+  flex: 1; 
+} 
