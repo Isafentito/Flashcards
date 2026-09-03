@@ -6,11 +6,11 @@ padding: 0;
 }
 
 .cabecalho { 
-  background-color: #7e3e1c; 
-  padding: 15px 25px; 
-  display: flex; 
+   display: flex; 
   justify-content: space-between; 
   align-items: center; 
+  padding: 15px 25px; 
+  background-color: #323c77;
 } 
 
 .cartao {
