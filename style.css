@@ -26,6 +26,7 @@ body {
   display: flex; 
   flex-direction: column; 
   min-height: 100vh; 
+  background-color: #fff;
 } 
 
 main { 
@@ -36,3 +37,7 @@ main {
   color: #fff; 
   text-decoration: none; 
 } 
+
+h1 {
+  color:#fff ;
+}
