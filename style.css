@@ -32,19 +32,3 @@ body {
 main { 
   flex: 1; 
 } 
-
-.cabecalho-link { 
-  color: #fff; 
-  text-decoration: none; 
-} 
-
-h1 { 
-  color: #fff; 
-  font-size: 24px; 
-} 
-
-footer { 
-  background-color: rgb(25, 81, 129); 
-  padding: 15px 25px; 
-  color: #fff; 
-} 
